@@ -1,1 +1,1 @@
-[bigrat](./compressed_bigrat1.png)
+![bigrat](./compressed_bigrat1.png)
