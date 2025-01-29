@@ -1,1 +1,1 @@
-# C25-practicum-.github-io
+[bigrat](./compressed_bigrat1.png)
