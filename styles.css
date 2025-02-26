@@ -1,0 +1,243 @@
+
+.col-1 {
+    width: 8.33%
+}
+
+.col-2 {
+    width: 16.66%
+}
+
+.col-3 {
+    width: 25%
+}
+
+.col-4 {
+    width: 33.33%
+}
+
+aside {
+  width: 33.3%;
+  padding-right: 15px;
+  float: left;
+}
+
+.col-5 {
+    width: 41.66%
+}
+
+.col-6 {
+    width: 50%
+}
+
+.col-7 {
+    width: 58.33%
+}
+
+.col-8 {
+    width: 66.66%
+}
+
+.col-9 {
+    width: 75%
+}
+
+.col-10 {
+    width: 83.33%
+}
+
+.col-11 {
+    width: 91.66%
+}
+
+.col-12 {
+    width: 100%
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px
+}
+
+* {
+    box-sizing: border-box
+}
+
+:root {
+    --furspaceBlue: #2d96ff;
+    --furspaceDarkBlue: #1e39ea;
+}
+
+body {
+    font-family: helvetica;
+    font-size: 18px;
+    background-image: url("clouds.gif");
+}
+
+.headerBar {
+    background-color: var(--furspaceDarkBlue);
+}
+
+.mainNavbar {
+    background-color: var(--furspaceBlue);
+}
+
+.topBar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.navbarItem {
+    display: inline;
+    padding: 10px;
+    float: left;
+}
+
+.navbarItem > a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#searchbar {
+    background-color: white;
+    color: gray;
+    padding: 5px;
+    width: 75%;
+    display: inline-block;
+}
+
+.searchButton {
+    background-color: var(--furspaceBlue);
+    color: white;
+    font: helvetica;
+    display: inline-block;
+    width: 20%;
+    height: 25px;
+    margin: 5px;
+}
+
+aside > table {
+    width: 100%;
+}
+
+table {
+    background-color: white;
+}
+
+table, .orangeTableHeader, .tableHeader, .profileTable {
+    border: 1px ridge black;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+.profileTable {
+    width: 66.6%;
+}
+
+.tableHeader {
+    text-align: left;
+    background-color: var(--furspaceBlue);
+    padding: 5px;
+    color: white;
+}
+
+.orangeTableHeader {
+    text-align: left;
+    background-color: rgb(255, 198, 107);
+    padding: 5px;
+    color: rgb(198, 82, 0);
+    font-weight: bold;
+}
+
+td {
+    padding: 5px;
+    margin: 2px;
+    background-color: white;
+}
+
+th {
+    padding: 5px;
+    margin: 2px;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 0px;
+}
+
+.bioIntroItem {
+    margin-left: 0px;
+    font-size: 24px;
+}
+
+#bioStatus {
+    font-size: 24px;
+}
+
+#bioIcon {
+    height: 100%;
+    border: 1px solid black;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.6);
+}
+
+.bottomBio {
+    background-color:rgb(193, 226, 243);
+}
+
+.bottomBio td {
+    background-color:rgb(147, 193, 245);
+}
+
+#musicContainer {
+    border: 2px solid black;
+    padding: 5px;
+    align-items: center;
+    display: flex;
+    height: 8.5vw;
+    align-items: stretch;
+    justify-content: space-around;
+    background-color: rgb(190, 190, 190);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+#musicButton {
+    width: 25%;
+    margin-left: -1px;
+}
+
+#musicButton button {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 60px;
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    font-weight: bold;
+}
+
+#musicPlayer {
+    border: 1px solid purple;
+    padding: 15px;
+    float: right;
+    width: 72%;
+    background-color:rgb(46, 46, 46);
+    color: rgb(129, 129, 129);
+    font-size: 48px;
+}
+
+.friend {
+    text-align: center;
+}
+
+#furspace_logo {
+    display: inline-block;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+}
