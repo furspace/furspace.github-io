@@ -142,25 +142,39 @@
                         <td colspan="2">hey guys i am in daka right now with xavier and remy and i have a cup of pudding and a glass of hi-c pink lemonade that i kind of regret getting but it was for a photo for this project so it was worth it and im probably going to pour it out in a few minutes and get a new cup so i can fill it with my beloved two percent milk. nevermind i dont have to pour it out because remy offered to take it from me and now i can get a fresh cup and everything is just swell :3</td>
                     </tr>
                     <tr>
-                        <div><td colspan="2"><strong>Comments</strong></td></div>
+                        <div>
+                            <td colspan="2">
+                                <strong>Comments</strong>
+                                    <input type="button" onclick="commentsDropdown(this)" class="comments-dropdown" value="Open Comments"></input>
+                                    <script>
+                                        function commentsDropdown(element){
+                                            if(element.value == "Open Comments"){
+                                                 element.value = "Close Comments"
+                                            } else if(element.value == "Close Comments") {
+                                                element.value = "Open Comments"
+                                            }
+                                        }
+                                    </script>
+                            </td>
+                        </div>
                     </tr>
-                    <div>
-                        <tr class="comment">
-                            <td width="15%"><img src="https://placehold.co/100" alt="friend" class="friendIcon"></td>
-                            <td><strong>Xavier:</strong><br>
-                                no</td>
-                        </tr>
-                        <tr class="comment">
-                            <td width="15%"><img src="https://placehold.co/100" alt="friend" class="friendIcon"></td>
-                            <td><strong>Remy:</strong><br>
-                                hi</td>
-                        </tr>
-                        <tr class="comment">
-                            <td width="15%"><img src="https://placehold.co/100" alt="friend" class="friendIcon"></td>
-                            <td><strong>Wellsley:</strong><br>
-                                this is supposed to be a really long comment that extends the boundaries of this box. i went to halal shack for lunch today. linalg ended a few mins early so i thought i was being goated by getting to halal shack early. little did i know, they were out of french fries when i got there when the line was short. so i had to sit down and wait for a bit and then get back on the growing line and they were STILL out of fries. but then i waited a minute and i was rewarded handsomely with the freshest fries i could've gotten and they filled up my bowl real high and i was extremely satisfied. not only that but jake joined me and we had a lovely lunch together where we talked about video games and night in the woods and it was lovely!!! and then i went to fuller where i got a pack of m&ms from the vending machine and worked on the trs-80 with andrews and</td>
-                        </tr>
-                    </div>
+                        <div>
+                            <tr class="comment">
+                                <td width="15%"><img src="https://placehold.co/100" alt="friend" class="friendIcon"></td>
+                                <td><strong>Xavier:</strong><br>
+                                    no</td>
+                            </tr>
+                            <tr class="comment">
+                                <td width="15%"><img src="https://placehold.co/100" alt="friend" class="friendIcon"></td>
+                                <td><strong>Remy:</strong><br>
+                                    hi</td>
+                            </tr>
+                            <tr class="comment">
+                                <td width="15%"><img src="https://placehold.co/100" alt="friend" class="friendIcon"></td>
+                                <td><strong>Wellsley:</strong><br>
+                                    this is supposed to be a really long comment that extends the boundaries of this box. i went to halal shack for lunch today. linalg ended a few mins early so i thought i was being goated by getting to halal shack early. little did i know, they were out of french fries when i got there when the line was short. so i had to sit down and wait for a bit and then get back on the growing line and they were STILL out of fries. but then i waited a minute and i was rewarded handsomely with the freshest fries i could've gotten and they filled up my bowl real high and i was extremely satisfied. not only that but jake joined me and we had a lovely lunch together where we talked about video games and night in the woods and it was lovely!!! and then i went to fuller where i got a pack of m&ms from the vending machine and worked on the trs-80 with andrews and</td>
+                            </tr>
+                        </div>
                 </table>
 
             </div>
