@@ -242,6 +242,15 @@ footer {
     text-align: center;
 }
 
+.comment {
+    display: none
+}
+
+.comment-body {
+    text-align: left;
+
+}
+
 .comments-dropdown {
     background-color: #04aa6d00;
     border: none;
