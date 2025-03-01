@@ -365,7 +365,7 @@ footer {
 
 /* Posts container styling */
 .postsContainer {
-    height: calc(100vh - 265px); /* Adjust the height to align with the bottom of the page */
+    height: 606px; 
     overflow-y: scroll;
     margin: 0;
     padding: 0;
