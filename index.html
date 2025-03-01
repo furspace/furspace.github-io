@@ -1,221 +1,247 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" xml:lang="en">
     <head>
         <title>Furspace</title> 
         <link rel="icon" href="img/icons/FurLogoBlue.svg" type="image/svg"/>
-       
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <nav>
-            <ul class="headerBar topBar" style="box-shadow: 0px 30px 30px rgba(255, 255, 255, 0.144) inset;"> 
-                <li class="navbarItem"><img src="img/icons/FurLogoWhite.svg" style="width: 75px; height: 75px; display:inline; vertical-align: middle; margin-top: -10px; margin-bottom: -10px;" ></li>
-                <li class="home navbarItem"><a href="index.html" style="position:absolute; top:15px; margin-left: -20px; font-size: 29px; border-right: 1px solid">furspace.blog</a></li>  <!-- Will remove inline styles to something else-->
-                <li class="navbarItem"><a style="position:absolute; top: 45px; left:95px;">a space for furs</a></li>
-                <li class="navbarItem" style="float:right; width: 20vw;"><span><em id="searchbar" style="margin-top: 15px;">Search...</em><button class="searchButton">Go</button></span></li>
+            <!-- Header Bar -->
+            <ul class="headerBar topBar">
+                <li class="navbarItem"><img src="img/icons/FurLogoWhite.svg" class="logo"></li>
+                <li class="home navbarItem"><a href="index.html" class="homeLink">furspace.blog</a></li>
+                <li class="navbarItem"><a class="tagline">a space for furs</a></li>
+                <li class="navbarItem searchContainer"><span><em id="searchbar">Search...</em><button class="searchButton">Go</button></span></li>
             </ul>
-        <div class="mainNavbar topBar">
+            <!-- Main Navbar -->
+            <div class="mainNavbar topBar">
                 <li class="navbarItem"><a href="">Home</a></li>
                 <li class="navbarItem"><a href="">About</a></li>
                 <li class="navbarItem" style="float:right"><a href="">Sign Up</a></li>
                 <li class="navbarItem" style="float:right"><a href="">Log In</a></li>
-        </div>
+            </div>
             <br>
         </nav>
-        
-
         <div class="row">
-        <aside>
-            <table class="bioTable topBio"> <!--Intro and quick blurb-->
-                <tr>
-                    <td id="bioName">
-                        <h1>Wellsley</h1>
-                    </td>
-                    <td id="bioStatus">
-                        My STATUS!!
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img src="./img/icons/users/wells.jpg" width="200px" height="200px" alt="icon" id="bioIcon">
-                    </td>
-                    <td id="bioIntro">
-                        <ul class="bioIntroItem">
-                            <li class="bioIntroItem">he/him</li>
-                            <li class="bioIntroItem">20 y/o nerd</li>
-                            <li class="bioIntroItem">Worcester, MA</li>
-                        </ul>
-                    </td>
-                </tr>
-            </table>
-            <br>
-            <table class="bioTable middleBio"> <!--Utilities box-->
-                <tr>
-                    <th colspan="2" class="tableHeader">Contacting Wellsley</th>
-                </tr>
-                <tr>
-                    <td>Send Message</td>
-                    <td>Block User</td>
-                </tr>
-                <tr>
-                    <td>Add to Friends</td>
-                    <td>Add to Favorites</td>
-                </tr>
-            </table>
-            <br>
-            <div id="musicContainer">
-                <span id="musicButton"><button>ll</button></span>
-                <div id="musicPlayer">Loading...</div>
-            </div>
-            <br>
-            <table class="bioTable bottomBio"> <!--Interests-->
-                <tr>
-                    <th colspan="2" class="tableHeader">Wellsley's Interests</th>
-                </tr>
-                <tr>
-                    <td><strong>General</strong></td>
-                    <td>computer</td>
-                </tr>
-                <tr>
-                    <td><strong>Music</strong></td>
-                    <td>electronica, trance, classical, heavy-metal-synth, breakcore, IDM</td>
-                </tr>
-                <tr>
-                    <td><strong>Movies</strong></td>
-                    <td>brave little toaster to the rescue</td>
-                </tr>
-                <tr>
-                    <td><strong>Television</strong></td>
-                    <td>bluey</td>
-                </tr>
-                <tr>
-                    <td><strong>Books</strong></td>
-                    <td>wind in the willows</td>
-                </tr>
-                <tr>
-                    <td><strong>Heroes</strong></td>
-                    <td>idk man</td>
-                </tr>
-            </table>
-        </aside>
-        <main class="row-7">
-            <div>
-                <table class="profileTable">
-                    <tr class="orangeTableHeader">
-                        <th>About</th>
+            <aside>
+                <!-- Bio Table -->
+                <table class="bioTable topBio">
+                    <tr>
+                        <td id="bioName"><h1>Wellsley</h1></td>
+                        <td id="bioStatus">My STATUS!!</td>
                     </tr>
                     <tr>
-                        <td>nerdy queer engineer yote</td>
-                    </tr>
-                    <tr class="orangeTableHeader">
-                        <th>Who I'd Like to Meet</th>
-                    </tr>
-                    <tr>
-                        <td>nerds and fellow animal people</td>
-                    </tr>
-                </table>
-            <br>
-                <!-- <table class="profileTable">
-                    <tr class="orangeTableHeader">
-                        <th colspan="4">Wellsley's Friends</th>
-                    </tr>
-                    <tr>
-                        <td class="friend"><img src="https://placehold.co/100" alt="friend" class="friendIcon"><br>
-                            1</td>
-                        <td class="friend"><img src="https://placehold.co/100" alt="friend" class="friendIcon"><br>
-                            2</td>
-                        <td class="friend"><img src="https://placehold.co/100" alt="friend" class="friendIcon"><br>
-                            3</td>
-                        <td class="friend"><img src="https://placehold.co/100" alt="friend" class="friendIcon"><br>
-                            4</td>
-                    </tr>
-                </table>
-            <br> -->
-            <!-- <script type="module" src="./scripts/posts.js"></script> -->
-            <table class="profileTable" id="pt">
-                <tr>
-                    <td colspan="2" class="orangeTableHeader">Wellsley's Blog Entries</td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-
-                        <span style="float:inline-start">
-                            <img src="https://placehold.co/50" alt="friend" class="friendIcon">
-                            <strong id=author>tubular blog # 1</strong>
-                        </span>
-                        <span style="float:right">
-                            <em id=date>03 February 2025</em>
-                        </span>
-                </td>
-                </tr>
-                        <script>
-                            let id = 1;
-                            var author = ":3"
-                            let a = document.getElementById("author")
-                            a.innerText = author
-                            var date = "3333"
-                            let d = document.getElementById("date")
-                            d.innerText = date
-                        </script>
-                <tr>
-                    <td colspan="2" id="postBody"">hey guys i am in daka right now with xavier and remy and i have a cup of pudding and a glass of hi-c pink lemonade that i kind of regret getting but it was for a photo for this project so it was worth it and im probably going to pour it out in a few minutes and get a new cup so i can fill it with my beloved two percent milk. nevermind i dont have to pour it out because remy offered to take it from me and now i can get a fresh cup and everything is just swell :3</td>
-                </tr>
-                <tr>
-                    <div>
-                        <td colspan="2">
-                            <strong>Comments</strong>
-                                <input type="button" onclick="commentsDropdown(this)" class="comments-dropdown" value="Open Comments"></input>
-                                <script>
-                                    function commentsDropdown(element){
-                                        if(element.value == "Open Comments"){
-                                            element.value = "Close Comments"
-                                            let c = document.getElementById("commentSection")
-                                            c.style.display = "flex";
-                                            
-                                        } else if(element.value == "Close Comments") {
-                                            element.value = "Open Comments"
-                                            let c = document.getElementById("commentSection")
-                                            c.style.display = "none";
-                                        
-                                        }
-                                    }
-                                </script>
+                        <td><img src="./img/icons/users/wells.jpg" width="200px" height="200px" alt="icon" id="bioIcon"></td>
+                        <td id="bioIntro">
+                            <ul class="bioIntroItem">
+                                <li class="bioIntroItem">he/him</li>
+                                <li class="bioIntroItem">20 y/o nerd</li>
+                                <li class="bioIntroItem">Worcester, MA</li>
+                            </ul>
                         </td>
+                    </tr>
+                </table>
+                <br>
+                <!-- Utilities Box -->
+                <table class="bioTable middleBio">
+                    <tr>
+                        <th colspan="2" class="tableHeader">Contacting Wellsley</th>
+                    </tr>
+                    <tr>
+                        <td>Send Message</td>
+                        <td>Block User</td>
+                    </tr>
+                    <tr>
+                        <td>Add to Friends</td>
+                        <td>Add to Favorites</td>
+                    </tr>
+                </table>
+                <br>
+                <!-- Music Container -->
+                <div id="musicContainer">
+                    <span id="musicButton"><button>ll</button></span>
+                    <div id="musicPlayer">Loading...</div>
+                </div>
+                <br>
+                <!-- Interests Table -->
+                <table class="bioTable bottomBio">
+                    <tr>
+                        <th colspan="2" class="tableHeader">Wellsley's Interests</th>
+                    </tr>
+                    <tr>
+                        <td><strong>General</strong></td>
+                        <td>computer</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Music</strong></td>
+                        <td>electronica, trance, classical, heavy-metal-synth, breakcore, IDM</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Movies</strong></td>
+                        <td>brave little toaster to the rescue</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Television</strong></td>
+                        <td>bluey</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Books</strong></td>
+                        <td>wind in the willows</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Heroes</strong></td>
+                        <td>idk man</td>
+                    </tr>
+                </table>
+            </aside>
+            <main class="row-7">
+                <div>
+                    <!-- Profile Table -->
+                    <table class="profileTable">
+                        <tr class="orangeTableHeader">
+                            <th>About</th>
+                        </tr>
+                        <tr>
+                            <td>nerdy queer engineer yote</td>
+                        </tr>
+                        <tr class="orangeTableHeader">
+                            <th>Who I'd Like to Meet</th>
+                        </tr>
+                        <tr>
+                            <td>nerds and fellow animal people</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <!-- Posts Container -->
+                    <div class="postsContainer">
+                        <table class="profileTable" id="pt">
+                            <tr>
+                                <td colspan="2" class="orangeTableHeader">Wellsley's Blog Entries</td>
+                            </tr>
+                            <tbody id="postsContainer">
+                                <!-- Posts will be populated here by JavaScript -->
+                            </tbody>
+                        </table>
                     </div>
-                </tr>
-                <table id="commentSection" > <!-- comments -->
-                    <tr>
-                        <td width="0%"><img src="https://placehold.co/50" alt="friend" class="friendIcon"></td>
-                        <td class="comment-body">
-                            <strong>Xavier:</strong>
-                            <br>
-                            no
-                        </td>
-                    </tr>
-                    <tr>
-                        <td width="0%"><img src="https://placehold.co/50" alt="friend" class="friendIcon"></td>
-                        <td>
-                            <strong>Remy:</strong>
-                            <br>
-                            hi
-                        </td>
-                    </tr>
-                    <tr>
-                        <td width="0%"><img src="https://placehold.co/50" alt="friend" class="friendIcon"></td>
-                        <td>
-                            <strong>Wellsley:</strong>
-                            <br>
-                            this is supposed to be a really long comment that extends the boundaries of this box. i went to halal shack for lunch today. linalg ended a few mins early so i thought i was being goated by getting to halal shack early. little did i know, they were out of french fries when i got there when the line was short. so i had to sit down and wait for a bit and then get back on the growing line and they were STILL out of fries. but then i waited a minute and i was rewarded handsomely with the freshest fries i could've gotten and they filled up my bowl real high and i was extremely satisfied. not only that but jake joined me and we had a lovely lunch together where we talked about video games and night in the woods and it was lovely!!! and then i went to fuller where i got a pack of m&ms from the vending machine and worked on the trs-80 with andrews and</td>
-                    </tr>
-                </table>
+                    <script type="module">
+                        export const posts = [
+                            {
+                                "date": "May 2005",
+                                "author": "Wellsley",
+                                "icon": "./img/icons/users/wells.jpg",
+                                "image": "./img/posts/1.jpg",
+                                "body": "the yapper",
+                                "comments": [
+                                    {
+                                        "author": "Xavier",
+                                        "icon": "./img/icons/users/opal.jpg",
+                                        "text": "hi"
+                                    }
+                                ]
+                            },
+                            {
+                                "date": "May 2005",
+                                "author": "Wellsley",
+                                "icon": "./img/icons/users/wells.jpg",
+                                "image": "./img/posts/1.jpg",
+                                "body": "the yapper",
+                                "comments": [
+                                    {
+                                        "author": "Xavier",
+                                        "icon": "./img/icons/users/opal.jpg",
+                                        "text": "hi"
+                                    }
+                                ]
+                            }
+                        ];
 
-            </table>
-            </div>
-        </main>
-    </div>
-    <hr>
-    <footer>FurSpace &#169; 2005
-        <br>
-    </footer>
+                        const postsContainer = document.getElementById('postsContainer');
+
+                        posts.forEach(post => {
+                            const postRow = document.createElement('tr');
+                            postRow.innerHTML = `
+                                <td colspan="2">
+                                    <span class="postAuthor">
+                                        <img src="${post.icon}" width=55px height=55px alt="author" class="friendIcon">
+                                        <div class="postAuthorText">
+                                            <strong>${post.author}</strong>
+                                            <span class="postDate"><em>${post.date}</em></span>
+                                        </div>
+                                    </span>
+                                </td>
+                            `;
+                            postsContainer.appendChild(postRow);
+
+                            const imageRow = document.createElement('tr');
+                            imageRow.innerHTML = `
+                                <td colspan="2">
+                                    <img src="${post.image}" alt="post image" class="postImage">
+                                </td>
+                            `;
+                            postsContainer.appendChild(imageRow);
+
+                            const bodyRow = document.createElement('tr');
+                            bodyRow.innerHTML = `
+                                <td colspan="2">${post.body}</td>
+                            `;
+                            postsContainer.appendChild(bodyRow);
+
+                            const commentsRow = document.createElement('tr');
+                            commentsRow.innerHTML = `
+                                <td colspan="2">
+                                    <strong>Comments</strong>
+                                    <input type="button" onclick="commentsDropdown(this)" class="comments-dropdown" value="▼"></input>
+                                </td>
+                            `;
+                            postsContainer.appendChild(commentsRow);
+
+                            const commentsSection = document.createElement('tbody');
+                            commentsSection.className = "commentSection";
+                            commentsSection.style.display = "none";
+                            post.comments.forEach(comment => {
+                                const commentRow = document.createElement('tr');
+                                commentRow.innerHTML = `
+                                    <td width="0%"><img src="${comment.icon}" width=50px height=50px alt="friend" class="friendIcon"></td>
+                                    <td class="comment-body">
+                                        <strong>${comment.author}:</strong>
+                                        <br>
+                                        ${comment.text}
+                                    </td>
+                                `;
+                                commentsSection.appendChild(commentRow);
+                            });
+                            postsContainer.appendChild(commentsSection);
+
+                            const postBreak = document.createElement('tr');
+                            postBreak.innerHTML = `
+                                <td colspan="2">
+                                    <hr class="postBreak">
+                                </td>
+                            `;
+                            postsContainer.appendChild(postBreak);
+                        });
+
+                        window.commentsDropdown = function(element) {
+                            if (element.value == "▼") {
+                                element.value = "▲";
+                                let c = element.parentElement.parentElement.nextElementSibling;
+                                if (c) {
+                                    c.style.display = "table-row-group";
+                                }
+                            } else if (element.value == "▲") {
+                                element.value = "▼";
+                                let c = element.parentElement.parentElement.nextElementSibling;
+                                if (c) {
+                                    c.style.display = "none";
+                                }
+                            }
+                        }
+                    </script>
+                </div>
+            </main>
+        </div>
+        <hr>
+        <footer>FurSpace &#169; 2005<br></footer>
     </body>
 </html>

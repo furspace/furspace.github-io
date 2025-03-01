@@ -1,4 +1,4 @@
-var posts = [
+export const posts = [
     {
         "date": "May 2005",
         "author": "Wellsley",
@@ -9,7 +9,7 @@ var posts = [
                 "body": "hi"
             }
         ]
-    },
+    }
 
 ]
 

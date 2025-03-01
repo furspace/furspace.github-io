@@ -1,86 +1,95 @@
-
+/* Column width classes */
 .col-1 {
-    width: 8.33%
+    width: 8.33%;
 }
 
 .col-2 {
-    width: 16.66%
+    width: 16.66%;
 }
 
 .col-3 {
-    width: 25%
+    width: 25%;
 }
 
 .col-4 {
-    width: 33.33%
+    width: 33.33%;
 }
 
 aside {
-  width: 33.3%;
-  padding-right: 15px;
-  float: left;
+    width: 33.3%;
+    padding-right: 15px;
+    float: left;
 }
 
 .col-5 {
-    width: 41.66%
+    width: 41.66%;
 }
 
 .col-6 {
-    width: 50%
+    width: 50%;
 }
 
 .col-7 {
-    width: 58.33%
+    width: 58.33%;
 }
 
 .col-8 {
-    width: 66.66%
+    width: 66.66%;
 }
 
 .col-9 {
-    width: 75%
+    width: 75%;
 }
 
 .col-10 {
-    width: 83.33%
+    width: 83.33%;
 }
 
 .col-11 {
-    width: 91.66%
+    width: 91.66%;
 }
 
 .col-12 {
-    width: 100%
+    width: 100%;
 }
 
 [class*="col-"] {
     float: left;
-    padding: 15px
+    padding: 15px;
 }
 
+/* Box sizing */
 * {
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
+/* Root variables */
 :root {
     --furspaceBlue: #2d96ff;
     --furspaceDarkBlue: #1e39ea;
+    --furspaceYellow: rgb(255, 198, 107);
+    --furspaceOrange: rgb(198, 82, 0); 
+    
 }
 
+/* Body styling */
 body {
     font-family: helvetica;
     font-size: 18px;
     background-image: url("clouds.gif");
 }
 
+/* Header bar styling */
 .headerBar {
     background-color: var(--furspaceDarkBlue);
 }
 
+/* Main navbar styling */
 .mainNavbar {
     background-color: var(--furspaceBlue);
 }
 
+/* Top bar styling */
 .topBar {
     list-style-type: none;
     padding: 0;
@@ -88,6 +97,7 @@ body {
     overflow: hidden;
 }
 
+/* Navbar item styling */
 .navbarItem {
     display: inline;
     padding: 10px;
@@ -100,6 +110,7 @@ body {
     text-decoration: none;
 }
 
+/* Search bar styling */
 #searchbar {
     background-color: white;
     color: gray;
@@ -108,6 +119,7 @@ body {
     display: inline-block;
 }
 
+/* Search button styling */
 .searchButton {
     background-color: var(--furspaceBlue);
     color: white;
@@ -118,6 +130,7 @@ body {
     margin: 5px;
 }
 
+/* Table styling */
 aside > table {
     width: 100%;
 }
@@ -144,9 +157,9 @@ table, .orangeTableHeader, .tableHeader, .profileTable {
 
 .orangeTableHeader {
     text-align: left;
-    background-color: rgb(255, 198, 107);
+    background-color: var(--furspaceYellow);
     padding: 5px;
-    color: rgb(198, 82, 0);
+    color: var(--furspaceOrange);
     font-weight: bold;
 }
 
@@ -161,34 +174,40 @@ th {
     margin: 2px;
 }
 
+/* Heading styling */
 h1 {
     font-size: 48px;
     margin: 0px;
 }
 
+/* Bio intro item styling */
 .bioIntroItem {
     margin-left: 0px;
     font-size: 24px;
 }
 
+/* Bio status styling */
 #bioStatus {
     font-size: 24px;
 }
 
+/* Bio icon styling */
 #bioIcon {
     height: 100%;
     border: 1px solid black;
     box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.6);
 }
 
+/* Bottom bio styling */
 .bottomBio {
-    background-color:rgb(193, 226, 243);
+    background-color: rgb(193, 226, 243);
 }
 
 .bottomBio td {
-    background-color:rgb(147, 193, 245);
+    background-color: rgb(147, 193, 245);
 }
 
+/* Music container styling */
 #musicContainer {
     border: 2px solid black;
     padding: 5px;
@@ -201,6 +220,7 @@ h1 {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
 }
 
+/* Music button styling */
 #musicButton {
     width: 25%;
     margin-left: -1px;
@@ -219,34 +239,34 @@ h1 {
     font-weight: bold;
 }
 
+/* Music player styling */
 #musicPlayer {
     border: 1px solid purple;
     padding: 15px;
     float: right;
     width: 72%;
-    background-color:rgb(46, 46, 46);
+    background-color: rgb(46, 46, 46);
     color: rgb(129, 129, 129);
     font-size: 48px;
 }
 
+/* Friend styling */
 .friend {
     text-align: center;
 }
 
-#furspace_logo {
-    display: inline-block;
-}
-
+/* Footer styling */
 footer {
     width: 100%;
     text-align: center;
 }
 
+/* Comment body styling */
 .comment-body {
     text-align: left;
-
 }
 
+/* Comments dropdown styling */
 .comments-dropdown {
     background-color: #04aa6d00;
     border: none;
@@ -261,4 +281,92 @@ footer {
 .comments-dropdown:hover {
     color: #85c2ff;
     text-decoration: underline;
+}
+
+/* Header shadow styling */
+.headerShadow {
+    box-shadow: 0px 30px 30px rgba(255, 255, 255, 0.144) inset;
+}
+
+/* Logo styling */
+.logo {
+    width: 75px;
+    height: 75px;
+    display: inline;
+    vertical-align: middle;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+/* Home link styling */
+.homeLink {
+    position: absolute;
+    top: 15px;
+    margin-left: -20px;
+    font-size: 29px;
+    border-right: 1px solid;
+}
+
+/* Tagline styling */
+.tagline {
+    position: absolute;
+    top: 45px;
+    left: 95px;
+}
+
+/* Search container styling */
+.searchContainer {
+    float: right;
+    width: 20vw;
+    margin-top: 15px;
+}
+
+/* Post author styling */
+.postAuthor {
+    display: flex;
+    align-items: center;
+}
+
+.postAuthor img {
+    margin-right: 10px;
+}
+
+.postAuthor div {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Post date styling */
+.postDate {
+    font-size: 0.8em;
+    color: gray;
+    margin-top: 5px;
+}
+
+/* Post break styling */
+.postBreak {
+    border: 1px solid var(--furspaceYellow);
+    margin: 20px 0;
+}
+
+/* Post image styling */
+.postImage {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Post author text styling */
+.postAuthorText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Posts container styling */
+.postsContainer {
+    height: calc(100vh - 230px); /* Adjust the height to align with the bottom of the page */
+    overflow-y: scroll;
+    margin: 0;
+    padding: 0;
 }
