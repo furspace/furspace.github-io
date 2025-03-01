@@ -113,25 +113,42 @@
                         </tr>
                     </table>
                     <br>
+                    <!-- Blog Entries Title -->
+                    <table class="profileTable">
+                        <tr>
+                            <td colspan="2" class="orangeTableHeader">Wellsley's Blog Entries</td>
+                        </tr>
+                    </table>
                     <!-- Posts Container -->
                     <div class="postsContainer">
                         <table class="profileTable" id="pt">
-                            <tr>
-                                <td colspan="2" class="orangeTableHeader">Wellsley's Blog Entries</td>
-                            </tr>
                             <tbody id="postsContainer">
                                 <!-- Posts will be populated here by JavaScript -->
                             </tbody>
                         </table>
                     </div>
                     <script type="module">
-                        export const posts = [
+                        const posts = [
                             {
                                 "date": "May 2005",
                                 "author": "Wellsley",
                                 "icon": "./img/icons/users/wells.jpg",
                                 "image": "./img/posts/1.jpg",
-                                "body": "the yapper",
+                                "body": "HI GUYS I JUST GRADUATED FROM HIGH SCHOOL!! =D\n I will be studying at WPI(Woofster Pawlytechnic Institute) and getting my degree in PHYSICS!! CLASS OF 2009 B) I’m so excited we’re staying in touch with Furspace. This website looks like a lot of fun and I am glad we have the World Wide Web to communicate with, even from far away. I hope everyone has fun in their post high school lives =)",
+                                "comments": [
+                                    // {
+                                    //     "author": "Xavier",
+                                    //     "icon": "./img/icons/users/opal.jpg",
+                                    //     "text": "hi"
+                                    // }
+                                ]
+                            },
+                            {
+                                "date": "June 2005",
+                                "author": "Wellsley",
+                                "icon": "./img/icons/users/wells.jpg",
+                                "image": "./img/posts/2.jpg",
+                                "body": "I'm so going to miss these fellas <3",
                                 "comments": [
                                     {
                                         "author": "Xavier",
@@ -141,11 +158,53 @@
                                 ]
                             },
                             {
-                                "date": "May 2005",
+                                "date": "July 2005",
+                                "author": "Seb",
+                                "icon": "./img/icons/users/seb.jpg",
+                                "image": "https://placehold.co/600x400",
+                                // "body": "I'm so going to miss these fellas <3",
+                                "comments": [
+                                    {
+                                        "author": "Xavier",
+                                        "icon": "./img/icons/users/opal.jpg",
+                                        "text": "hi"
+                                    }
+                                ]
+                            },
+                            {
+                                "date": "August 2005",
+                                "author": "Seb",
+                                "icon": "./img/icons/users/seb.jpg",
+                                // "image": "./img/posts/6.jpg",
+                                "body": "Hey guys… I'm moving back to Hawai’i. My parents want to move back home to be near my grandparents and I don’t have the money for college just yet. I’ll try to keep in touch as best as I can <3",
+                                "comments": [
+                                    {
+                                        "author": "Xavier",
+                                        "icon": "./img/icons/users/opal.jpg",
+                                        "text": "hi"
+                                    }
+                                ]
+                            },
+                            {
+                                "date": "August 2005",
                                 "author": "Wellsley",
                                 "icon": "./img/icons/users/wells.jpg",
-                                "image": "./img/posts/1.jpg",
-                                "body": "the yapper",
+                                "image": "./img/posts/6.jpg",
+                                "body": "New Student Orientation, or as the abbreviation is called: NSO was super fun! I also just got to move into my dorm, it’s a bit stuffy right now but hopefully my fan and some open windows can help that! I also just got to finally met my roomie, he’s super friendly!",
+                                "comments": [
+                                    {
+                                        "author": "Xavier",
+                                        "icon": "./img/icons/users/opal.jpg",
+                                        "text": "hi"
+                                    }
+                                ]
+                            },
+                            {
+                                "date": "August 2005",
+                                "author": "Wellsley",
+                                "icon": "./img/icons/users/wells.jpg",
+                                "image": "./img/posts/7.jpg",
+                                "body": "Got this plant from RSO!!! Don't know what kind of plant it is but it's cute!",
                                 "comments": [
                                     {
                                         "author": "Xavier",
@@ -154,6 +213,7 @@
                                     }
                                 ]
                             }
+
                         ];
 
                         const postsContainer = document.getElementById('postsContainer');
@@ -174,44 +234,66 @@
                             postsContainer.appendChild(postRow);
 
                             const imageRow = document.createElement('tr');
-                            imageRow.innerHTML = `
+                            if(post.image) {
+                                imageRow.innerHTML = `
                                 <td colspan="2">
                                     <img src="${post.image}" alt="post image" class="postImage">
                                 </td>
                             `;
+                            }
+
                             postsContainer.appendChild(imageRow);
 
                             const bodyRow = document.createElement('tr');
+                            let body = post.body ?? ""
                             bodyRow.innerHTML = `
-                                <td colspan="2">${post.body}</td>
+                                <td colspan="2" style="white-space: pre-line">${body}</td>
                             `;
                             postsContainer.appendChild(bodyRow);
 
-                            const commentsRow = document.createElement('tr');
-                            commentsRow.innerHTML = `
-                                <td colspan="2">
-                                    <strong>Comments</strong>
-                                    <input type="button" onclick="commentsDropdown(this)" class="comments-dropdown" value="▼"></input>
-                                </td>
-                            `;
-                            postsContainer.appendChild(commentsRow);
-
-                            const commentsSection = document.createElement('tbody');
-                            commentsSection.className = "commentSection";
-                            commentsSection.style.display = "none";
-                            post.comments.forEach(comment => {
-                                const commentRow = document.createElement('tr');
-                                commentRow.innerHTML = `
-                                    <td width="0%"><img src="${comment.icon}" width=50px height=50px alt="friend" class="friendIcon"></td>
-                                    <td class="comment-body">
-                                        <strong>${comment.author}:</strong>
-                                        <br>
-                                        ${comment.text}
+                            if (post.comments.length) {
+                                const commentsRow = document.createElement('tr');
+                                commentsRow.innerHTML = `
+                                    <td colspan="2">
+                                        <strong>Comments</strong>
+                                        <input type="button" onclick="commentsDropdown(this)" class="comments-dropdown" value="▼"></input>
                                     </td>
                                 `;
-                                commentsSection.appendChild(commentRow);
-                            });
-                            postsContainer.appendChild(commentsSection);
+                                postsContainer.appendChild(commentsRow);
+
+                                const commentsSection = document.createElement('tbody');
+                                commentsSection.className = "commentSection";
+                                commentsSection.style.display = "none";
+                                    post.comments.forEach(comment => {
+                                        const commentRow = document.createElement('tr');
+                                        commentRow.innerHTML = `
+                                        <td width="0%"><img src="${comment.icon}" width=50px height=50px alt="friend" class="friendIcon"></td>
+                                        <td class="comment-body">
+                                            <strong>${comment.author}:</strong>
+                                            <br>
+                                            ${comment.text}
+                                        </td>
+                                    `;
+                                        commentsSection.appendChild(commentRow);
+                                    });
+                                postsContainer.appendChild(commentsSection);
+                                window.commentsDropdown = function (element) {
+                                    if (element.value == "▼") {
+                                        element.value = "▲";
+                                        let c = element.parentElement.parentElement.nextElementSibling;
+                                        if (c) {
+                                            c.style.display = "table-row-group";
+                                        }
+                                    } else if (element.value == "▲") {
+                                        element.value = "▼";
+                                        let c = element.parentElement.parentElement.nextElementSibling;
+                                        if (c) {
+                                            c.style.display = "none";
+                                        }
+                                    }
+                                }
+                            }
+
 
                             const postBreak = document.createElement('tr');
                             postBreak.innerHTML = `
@@ -221,22 +303,6 @@
                             `;
                             postsContainer.appendChild(postBreak);
                         });
-
-                        window.commentsDropdown = function(element) {
-                            if (element.value == "▼") {
-                                element.value = "▲";
-                                let c = element.parentElement.parentElement.nextElementSibling;
-                                if (c) {
-                                    c.style.display = "table-row-group";
-                                }
-                            } else if (element.value == "▲") {
-                                element.value = "▼";
-                                let c = element.parentElement.parentElement.nextElementSibling;
-                                if (c) {
-                                    c.style.display = "none";
-                                }
-                            }
-                        }
                     </script>
                 </div>
             </main>

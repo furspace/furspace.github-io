@@ -76,7 +76,8 @@ aside {
 body {
     font-family: helvetica;
     font-size: 18px;
-    background-image: url("clouds.gif");
+    background-image: url("./img/clouds.gif");
+    background-repeat: repeat; /* Ensure the background image is tiled */
 }
 
 /* Header bar styling */
@@ -351,9 +352,8 @@ footer {
 
 /* Post image styling */
 .postImage {
-    width: 100%;
+    width: 50%;
     height: auto;
-    margin-bottom: 10px;
 }
 
 /* Post author text styling */
@@ -365,8 +365,12 @@ footer {
 
 /* Posts container styling */
 .postsContainer {
-    height: calc(100vh - 230px); /* Adjust the height to align with the bottom of the page */
+    height: calc(100vh - 265px); /* Adjust the height to align with the bottom of the page */
     overflow-y: scroll;
     margin: 0;
     padding: 0;
+}
+
+.postsContainer .profileTable {
+    width: 100%; /* Ensure each post within the container has the same width */
 }
