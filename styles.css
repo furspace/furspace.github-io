@@ -1,4 +1,6 @@
 /* Column width classes */
+
+/* TODO: make all colors unified with variables */
 .col-1 {
     width: 8.33%;
 }
@@ -252,8 +254,10 @@ h1 {
 }
 
 /* Friend styling */
-.friend {
+.friendIcon {
     text-align: center;
+    border: 1px solid rgb(129, 129, 129);
+
 }
 
 /* Footer styling */
@@ -365,6 +369,7 @@ footer {
     width: 50%;
     height: auto;
     border: 1px solid black;
+    margin-left: 12.5%;
     /* box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.6); */
 }
 
@@ -389,13 +394,14 @@ footer {
 
 /* Comment text box styling */
 .commentTextBox {
-    width: 80%;
-    padding: 10px;
-    margin-top: 10px;
-    border: 2px solid var(--furspaceBlue);
-    box-sizing: border-box;
     background-color: white;
-    font-family: helvetica;
+    padding: 5px;
+    width: 100%;
+    margin-top: 10px;
+    border-top: 2px solid gray;
+    border-left: 2px solid gray;
+    border-bottom: 2px solid lightgray;
+    border-right: 2px solid lightgray;
     font-size: 16px;
     font-style: italic;
 }

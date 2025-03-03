@@ -122,11 +122,6 @@
                                 "image": "./img/posts/1.jpg",
                                 "body": "HI GUYS I JUST GRADUATED FROM HIGH SCHOOL!! =D\n I will be studying at WPI(Woofster Pawlytechnic Institute) and getting my degree in PHYSICS!! CLASS OF 2009 B) I’m so excited we’re staying in touch with Furspace. This website looks like a lot of fun and I am glad we have the World Wide Web to communicate with, even from far away. I hope everyone has fun in their post high school lives =)",
                                 "comments": [
-                                    // {
-                                    //     "author": "Xavier",
-                                    //     "icon": "./img/icons/users/opal.jpg",
-                                    //     "text": "hi"
-                                    // }
                                 ]
                             },
                             {
@@ -150,9 +145,19 @@
                             },
                             {
                                 "date": "July 2005",
+                                "author": "Sebastian",
+                                "icon": "./img/icons/users/seb.jpg",
+                                "image": "./img/posts/3.jpg",
+                                // "body": "I'm so going to miss these fellas <3",
+                                "comments": [
+                                ]   
+                            },
+                            {
+                                "date": "July 2005",
                                 "author": "Kevin",
                                 "icon": "./img/icons/users/kevin.jpg",
-                                "image": "https://placehold.co/600x400",
+                                "image": "./img/posts/4.jpg",
+                                "body":"THX GUYS 4 SHOWING UP 2 MY PARTY LAST NITE!!!\nI CAN’T WAIT FOR COLLEGE PARTIES B/ C THIS WAS SO COOL AND I HAD SUCH A GREAT TIME",
                                 // "body": "I'm so going to miss these fellas <3",
                                 "comments": [
                                 ]
@@ -469,6 +474,7 @@
                             `;
                             postsContainer.appendChild(bodyRow);
 
+                            // TODO: add divider between comments, perhaps also show comment time? woudl need manuial inserting so prob not.
                             if (post.comments.length) {
                                 const commentsRow = document.createElement('tr');
                                 commentsRow.innerHTML = `
