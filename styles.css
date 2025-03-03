@@ -315,6 +315,13 @@ footer {
     left: 95px;
 }
 
+.currDate {
+    position: absolute;
+    top: 5px;
+    right: 15px;    
+
+}
+
 /* Search container styling */
 .searchContainer {
     float: right;
