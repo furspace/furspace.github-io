@@ -365,7 +365,7 @@ footer {
 
 /* Posts container styling */
 .postsContainer {
-    height: 778px; 
+    height: 776px; 
     overflow-y: scroll;
     margin: 0;
     padding: 0;
@@ -373,4 +373,17 @@ footer {
 
 .postsContainer .profileTable {
     width: 100%; /* Ensure each post within the container has the same width */
+}
+
+/* Comment text box styling */
+.commentTextBox {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid var(--furspaceBlue);
+    box-sizing: border-box;
+    background-color: white;
+    font-family: helvetica;
+    font-size: 16px;
+    font-style: italic;
 }
