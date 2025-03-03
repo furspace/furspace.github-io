@@ -77,6 +77,7 @@ aside {
 /* Body styling */
 body {
     font-family: helvetica;
+    overscroll-behavior: none;
     font-size: 18px;
     background-image: url("./img/clouds.gif");
     background-repeat: repeat; /* Ensure the background image is tiled */
@@ -330,7 +331,7 @@ footer {
 .searchContainer {
     float: right;
     width: 20vw;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 /* Post author styling */
@@ -382,7 +383,7 @@ footer {
 
 /* Posts container styling */
 .postsContainer {
-    height: 776px; 
+    height: 788px; 
     overflow-y: scroll;
     margin: 0;
     padding: 0;
