@@ -5,14 +5,14 @@
         <link rel="icon" href="img/icons/FurLogoBlue.svg" type="image/svg"/>
         <link rel="stylesheet" href="styles.css">
     </head>
-    <body>
+    <body onload="updateClock(); setInterval('updateClock()', 1000 )">
         <nav>
             <!-- Header Bar -->
             <ul class="headerBar topBar">
                 <li class="navbarItem"><img src="img/icons/FurLogoWhite.svg" class="logo"></li>
                 <li class="home navbarItem"><a href="index.html" class="homeLink">furspace.blog</a></li>
                 <li class="navbarItem"><a class="tagline">a space for furs</a></li>
-                <li class="navbarItem"><a class="currDate">Current Date: October 27, 2007</a></li>
+                <li class="navbarItem"><a class="currDate" id="datetime">October 27, 2007</a></li>
                 <li class="navbarItem searchContainer"><span><em id="searchbar">Search...</em><button class="searchButton">Go</button></span></li>
             </ul>
             <!-- Main Navbar -->

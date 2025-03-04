@@ -322,8 +322,8 @@ footer {
 
 .currDate {
     position: absolute;
-    top: 5px;
-    right: 15px;    
+    top: 50px;
+    right: 7px;    
 
 }
 
@@ -331,7 +331,8 @@ footer {
 .searchContainer {
     float: right;
     width: 20vw;
-    margin-top: 20px;
+    margin-top: -5px;
+    margin-right: -10px;
 }
 
 /* Post author styling */
