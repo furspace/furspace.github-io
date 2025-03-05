@@ -5,7 +5,7 @@
         <link rel="icon" href="img/icons/FurLogoBlue.svg" type="image/svg"/>
         <link rel="stylesheet" href="styles.css">
     </head>
-    <body onload="updateClock(); setInterval('updateClock()', 1000 )"> <!--TODO: add full clock functionality-->
+    <body> <!--TODO: add full clock functionality-->
         <nav>
             <!-- Header Bar -->
             <ul class="headerBar topBar">
@@ -63,9 +63,11 @@
                 <br>
                 <!-- Music Container -->
                 <div id="musicContainer">
+                    <audio src="https://archive.org/download/PreludeInDFlatMajorRaindrop/Pre%CC%81lude%20in%20D%20Flat%20Major%20__Raindrop__.mp3" preload="metadata" loop></audio>
                     <span id="musicButton"><button>ll</button></span>
-                    <div id="musicPlayer">Loading...</div>
+                    <div id="musicPlayer" style="font-size: large; white-space: pre-wrap;">Now Playing...&#10;&#10;Prelude in D Flat Major&#9;&#10;Raindrop</div>
                 </div>
+                <script src="./scripts/music.js"></script>
                 <br>
                 <!-- Interests Table -->
                 <table class="bioTable bottomBio">
