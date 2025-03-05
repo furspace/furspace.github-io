@@ -310,7 +310,7 @@ footer {
     top: 15px;
     margin-left: -20px;
     font-size: 29px;
-    border-right: 1px solid;
+    /* border-right: 1px solid; */
 }
 
 /* Tagline styling */
