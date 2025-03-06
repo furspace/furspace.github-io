@@ -384,7 +384,7 @@ footer {
 
 /* Posts container styling */
 .postsContainer {
-    height: 788px; 
+    height: 788px; /* TODO this needs to be handled better */
     overflow-y: scroll;
     margin: 0;
     padding: 0;
@@ -407,5 +407,3 @@ footer {
     font-size: 16px;
     font-style: italic;
 }
-
-/*Remy's Silly Audio shit*/
