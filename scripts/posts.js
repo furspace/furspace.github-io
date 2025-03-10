@@ -1,4 +1,4 @@
-const posts = [
+const posts = [ //TODO: add alt text; add sources
     {
         "date": "May 2005",
         "author": "Wellsley",
@@ -98,7 +98,7 @@ const posts = [
     },
     {
         "date": "August 2005",
-        "author": "Seb",
+        "author": "Sebastian",
         // "image": "./img/posts/6.jpg",
         "body": "Hey guys... I'm moving back to Hawai’i. My parents want to move back home to be near my grandparents and I don’t have the money for college just yet. I’ll try to keep in touch as best as I can <3",
         "comments": [
@@ -131,7 +131,7 @@ const posts = [
                 "text": "I dont mind it too much, for now atleast. I love my family and I feel good helping them out. But i dont want to be tied down to them for the rest of my life"
             },
             {
-                "author": "Wells",
+                "author": "Wellsley",
                 "text": "yeah that makes sense, I’m glad we live in the 21st century and you’re not disappearing forever. I cant even imagine how we would all communicate without the internet. Letters? But thats a whole can of logistics worms in and of itself"
             }
         ]
@@ -617,7 +617,7 @@ const posts = [
                 "text": "i think im gonna name this one molly"
             },
             {
-                "author": "Bastian",
+                "author": "Brian",
                 "text": "Bastion of creativity here"
             },
             {
@@ -810,7 +810,7 @@ const posts = [
                 "text": "from the photos you showed me on skype your room is very pretty!! "
             },
             {
-                "author": "Wells",
+                "author": "Wellsley",
                 "text": "soundproofing is kinda sucky but it’s my own room and my roommates are infinitely better than racket =)"
             },
             {
@@ -842,7 +842,7 @@ const posts = [
                 "text": "although you could just skype call me whenever you’re bored and need company lol"
             },
             {
-                "author": "Wells",
+                "author": "Wellsley",
                 "text": "gonna take you up on that <3"
             }
         ]
@@ -861,11 +861,11 @@ const posts = [
                 "text": "erm actually that’s not how a LAN party works"
             },
             {
-                "author": "Wells",
+                "author": "Wellsley",
                 "text": "oh"
             },
             {
-                "author": "Wells",
+                "author": "Wellsley",
                 "text": "opal come over to my place and we can order a pizza"
             },
             {
@@ -1061,6 +1061,30 @@ const posts = [
                 "author": "Wellsley",
                 "text": "she has been looping this nonstop on her ipod shuffle all day"
             },
+            {
+                "author": "Opal",
+                "text": "he doesn’t understand just how monumental this is to me. this is like. if brian won a free supercomputer or something"
+            },
+            {
+                "author": "Brian",
+                "text": "*vibrates* need…"
+            },
+            {
+                "author": "Wellsley",
+                "text": "update: she has been listening to this nonstop on her ipod shuffle all week"
+            },
+            {
+                "author": "Opal",
+                "text": "UPDATE I LOST MY IPOD THIS IS THE WORST DAY EVER I THINK I LEFT IT IN FLUPPER AND SOMEONE STOLE IT"
+            },
+            {
+                "author": "Wellsley",
+                "text": "aye… we will hold a memorial for your stolen ipod… we will nickname her jolly…"
+            },
+            {
+                "author": "Opal",
+                "text": "jolly will be missed terribly, i hope whoever has her now can only listen to *my* music (which is 99% MCR) and can’t upload their own songs no matter how hard they try"
+            }
         ]
     },
     {
@@ -1070,20 +1094,60 @@ const posts = [
         "body": "Happy SPOOKY DAY!",
         "comments": [
             {
-                "author": "Remy",
-                "text": "hii"
+                "author": "Opal",
+                "text": "yayyy halloween ^_^ the day i get to jump outta nowhere to scare the shit outta wellsley"
             },
+            {
+                "author": "Wellsley",
+                "text": "-_- i regretfully report that opal scared me so bad that i screamed so loud that it echoed all throughout the wedge and a daka employee came out to see what happened"
+            },
+            {
+                "author": "Sebastian",
+                "text": "LOL, you poor thing"
+            },
+            {
+                "author": "Brian",
+                "text": "nothing is scarier than WPI!"
+            },
+            {
+                "author": "Opal",
+                "text": "says the terrifying RPI turbo nerd =P"
+            }
         ]
     },
     {
         "date": "November 2006",
         "author": "Wellsley",
-        "body": "Hey guys... I need some time to myself...",
+        "body": "Hey guys... I need some time to myself. Gonna stop posting for a few weeks",
         "comments": [
             {
-                "author": "Remy",
-                "text": "hii"
+                "author": "Opal",
+                "text": "you ok dude? you didnt even show up for daily daka dinner today. you never miss that."
             },
+            {
+                "author": "Sebastian",
+                "text": "wells?? are you ok? what happened?"
+            },
+            {
+                "author": "Wellsley",
+                "text": "um… its hard to explain... i dont really wanna talk abt it rn…"
+            },
+            {
+                "author": "Sebastian",
+                "text": "You don’t have to, but I’m always here for you if you need to talk."
+            },
+            {
+                "author": "Wellsley",
+                "text": "Opal came over and i told her what happened… i miss you and i'm really nervous about IQP placement... probably gonna be getting somewhere in europe cause it has more spots than hawaii..."
+            },
+            {
+                "author": "Sebastian",
+                "text": "Awe... you are a ray of sunshine wells. Even if you dont get your IQP in hawaii, I can try to come see you!"
+            },
+            {
+                "author": "Wellsley",
+                "text": "thank you sebby <3 i’ll tell you more on skype"
+            }
         ]
     },
     {
@@ -1315,36 +1379,51 @@ posts.forEach(post => {
         commentsRow.innerHTML = `
                                     <td colspan="2">
                                         <strong>Comments</strong>
-                                        <input type="button" onclick="commentsDropdown(this)" class="comments-dropdown" value="▼"></input>
+                                        <input type="button" onclick="commentsDropdown(this)" class="comments-dropdown" value="hide"></input>
                                     </td>
                                 `;
         postsContainer.appendChild(commentsRow);
 
         const commentsSection = document.createElement('tbody');
         commentsSection.className = "commentSection";
-        commentsSection.style.display = "none";
+        commentsSection.style.display = "table-row-group";
         post.comments.forEach(comment => {
             const commentRow = document.createElement('tr');
             commentRow.innerHTML = `
-                                        <td width="0%"><img src="${getIcon(comment.author)}" width=50px height=50px alt="friend" class="friendIcon"></td>
-                                        <td class="comment-body">
-                                            <strong>${comment.author}:</strong>
-                                            <br>
-                                            ${comment.text}
-                                        </td>
-                                    `;
+                <td width="0%">
+                    <div style="display: flex; align-items: flex-start;">
+                        <img src="${getIcon(comment.author)}" width=50px height=50px alt="friend" class="friendIcon">
+                        <div class="comment-body" style="width: 600px; min-width: 600px; word-wrap: break-word;">
+                            <strong>${comment.author}:</strong>
+                            <br>
+                            ${comment.text}
+                        </div>
+                    </div>
+                </td>
+            `;
             commentsSection.appendChild(commentRow);
         });
+        
+        // Add comment text box
+        const commentTextBoxRow = document.createElement('tr');
+        commentTextBoxRow.innerHTML = `
+                            <td colspan="2">
+                                <input type="text" id="commentEntry" class="commentTextBox" placeholder="You must log in to comment" disabled>
+                            </td>
+                        `;
+        commentsSection.appendChild(commentTextBoxRow);
+
         postsContainer.appendChild(commentsSection);
         window.commentsDropdown = function (element) {
-            if (element.value == "▼") {
-                element.value = "▲";
+            if (element.value == "show") {
+                element.value = "hide";
                 let c = element.parentElement.parentElement.nextElementSibling;
                 if (c) {
                     c.style.display = "table-row-group";
                 }
-            } else if (element.value == "▲") {
-                element.value = "▼";
+                
+            } else if (element.value == "hide") {
+                element.value = "show";
                 let c = element.parentElement.parentElement.nextElementSibling;
                 if (c) {
                     c.style.display = "none";
@@ -1353,14 +1432,6 @@ posts.forEach(post => {
         }
     }
 
-    // Add comment text box
-    const commentTextBoxRow = document.createElement('tr');
-    commentTextBoxRow.innerHTML = `
-                                <td colspan="2">
-                                    <input type="text" class="commentTextBox" placeholder="You must log in to comment" disabled>
-                                </td>
-                            `;
-    postsContainer.appendChild(commentTextBoxRow);
 
     const postBreak = document.createElement('tr');
     postBreak.innerHTML = `

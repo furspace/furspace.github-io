@@ -282,6 +282,13 @@ footer {
 /* Comment body styling */
 .comment-body {
     text-align: left;
+    vertical-align: top;
+    padding-left: 10px;
+    /* Align text to the top right of the icon */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 /* Comments dropdown styling */
@@ -410,8 +417,9 @@ footer {
 .commentTextBox {
     background-color: white;
     padding: 5px;
-    width: 100%;
+    width: 75%; /* Changed from 100% to 75% */
     margin-top: 10px;
+    margin-bottom: 0px;
     border-top: 2px solid gray;
     border-left: 2px solid gray;
     border-bottom: 2px solid lightgray;
