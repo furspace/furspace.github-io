@@ -70,7 +70,7 @@ aside {
     --furspaceBlue: #2d96ff;
     --furspaceDarkBlue: #1e39ea;
     --furspaceYellow: rgb(255, 198, 107);
-    --furspaceOrange: rgb(198, 82, 0); 
+    --furspaceOrange: rgb(174, 72, 0); 
     
 }
 
@@ -85,12 +85,15 @@ body {
 
 /* Header bar styling */
 .headerBar {
-    background-color: var(--furspaceDarkBlue);
+    background-image: url("./img/pattern_darkblue.png");
+    background-repeat: repeat; 
 }
 
 /* Main navbar styling */
 .mainNavbar {
-    background-color: var(--furspaceBlue);
+    background-image: url("./img/pattern_blue.png");
+    background-repeat: repeat; 
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.6);
 }
 
 /* Top bar styling */
@@ -106,6 +109,8 @@ body {
     display: inline;
     padding: 10px;
     float: left;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
+    font-weight: bold;
 }
 
 .navbarItem > a {
@@ -121,6 +126,9 @@ body {
     padding: 5px;
     width: 75%;
     display: inline-block;
+    text-shadow: 0px 0px 0px rgba(0,0,0,0);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3) inset;
+    font-weight: normal;
 }
 
 /* Search button styling */
@@ -140,7 +148,8 @@ aside > table {
 }
 
 table {
-    background-color: white;
+    background-image: url("./img/pattern_white.png");
+    background-repeat: repeat; 
 }
 
 table, .orangeTableHeader, .tableHeader, .profileTable {
@@ -154,14 +163,17 @@ table, .orangeTableHeader, .tableHeader, .profileTable {
 
 .tableHeader {
     text-align: left;
-    background-color: var(--furspaceBlue);
+    background-image: url("./img/pattern_blue.png");
+    background-repeat: repeat; 
     padding: 5px;
     color: white;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
 }
 
 .orangeTableHeader {
     text-align: left;
-    background-color: var(--furspaceYellow);
+    background-image: url("./img/pattern_yellow.png");
+    background-repeat: repeat; 
     padding: 5px;
     color: var(--furspaceOrange);
     font-weight: bold;
@@ -170,7 +182,6 @@ table, .orangeTableHeader, .tableHeader, .profileTable {
 td {
     padding: 5px;
     margin: 2px;
-    background-color: white;
 }
 
 th {
@@ -208,7 +219,8 @@ h1 {
 }
 
 .bottomBio td {
-    background-color: rgb(147, 193, 245);
+    background-image: url("./img/pattern_lightblue.png");
+    background-repeat: repeat; 
 }
 
 /* Music container styling */
@@ -270,6 +282,13 @@ footer {
 /* Comment body styling */
 .comment-body {
     text-align: left;
+    vertical-align: top;
+    padding-left: 10px;
+    /* Align text to the top right of the icon */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 /* Comments dropdown styling */
@@ -384,7 +403,7 @@ footer {
 
 /* Posts container styling */
 .postsContainer {
-    height: 788px; 
+    height: 788px; /* TODO this needs to be handled better */
     overflow-y: scroll;
     margin: 0;
     padding: 0;
@@ -398,12 +417,14 @@ footer {
 .commentTextBox {
     background-color: white;
     padding: 5px;
-    width: 100%;
+    width: 75%; /* Changed from 100% to 75% */
     margin-top: 10px;
+    margin-bottom: 0px;
     border-top: 2px solid gray;
     border-left: 2px solid gray;
     border-bottom: 2px solid lightgray;
     border-right: 2px solid lightgray;
     font-size: 16px;
     font-style: italic;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3) inset;
 }
