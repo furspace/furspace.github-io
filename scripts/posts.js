@@ -399,7 +399,7 @@ const posts = [ //TODO: add alt text; add sources
     },
     {
         "date": "December 2005",
-        "author": "Welsley",
+        "author": "Wellsley",
         "image": "./img/posts/19.jpg",
         "body": "My succulent died =(\nWe don't know why, but me and Opal held a funeral in the Higgins gardens",
         "comments": [
@@ -1156,9 +1156,49 @@ const posts = [ //TODO: add alt text; add sources
         "body": "I GOT THE HAWAI’I IQP PLACEMENT!!!!!!",
         "comments": [
             {
-                "author": "Remy",
-                "text": "hii"
+                "author": "Sebastian",
+                "text": "OMG OMG OMG OMG OMG OMGOMNGO MOGKMGOGMGGOMOGM"
             },
+            {
+                "author": "Opal",
+                "text": "about that coconut"
+            },
+            {
+                "author": "Opal",
+                "text": "i want a box of em"
+            },
+            {
+                "author": "Brian",
+                "text": " are we all requesting something? could i get a stack of post cards"
+            },
+            {
+                "author": "Wellsley",
+                "text": "ostage is going to be SO expensive, how am i going to ship a whole BOX of coconuts???"
+            },
+            {
+                "author": "Opal",
+                "text": "one by one?"
+            },
+            {
+                "author": "Opal",
+                "text": "one coconut per week"
+            },
+            {
+                "author": "Sebastian",
+                "text": "sorry im just- AAAAAA"
+            },
+            {
+                "author": "Sebastian",
+                "text": "this is like my equivalent of opal experiencing the MCR album drop"
+            },
+            {
+                "author": "Opal",
+                "text": " like brian with the nerd supercomputer"
+            },
+            {
+                "author": "Brian",
+                "text": " postcards… :0"
+            }
         ]
     },
     {
@@ -1168,9 +1208,53 @@ const posts = [ //TODO: add alt text; add sources
         "body": "Our burger king was just changed to Coyote Jacks???",
         "comments": [
             {
-                "author": "Remy",
-                "text": "hii"
+                "author": "Opal",
+                "text": "time for ceremony number 3"
             },
+            {
+                "author": "Wellsley",
+                "text": "BELOVED BURGER KING… BK-OLLY… we will miss you terribly too many have been taken from us…"
+            },
+            {
+                "author": "Kevin",
+                "text": "burger king kinda sucks though, taco bell 4ever. nowhere else has baja blast"
+            },
+            {
+                "author": "Remy",
+                "text": "ok but do you have a dunkin’ donuts"
+            },
+            {
+                "author": "Wellsley",
+                "text": "yah and its the BEST THING EVER"
+            },
+            {
+                "author": "Remy",
+                "text": ":0"
+            },
+            {
+                "author": "Opal",
+                "text": " bro cant function without his morning coffee. once dunkin was closed for some reason and he had a test that morning and he was freakin out so i gave him one of my monsters and it was too much and he was practically bouncing off the walls"
+            },
+            {
+                "author": "Brian",
+                "text": "now this is something i’d want to see"
+            },
+            {
+                "author": "Opal",
+                "text": "he started doing integrals out loud it was terrifying"
+            },
+            {
+                "author": "Brian",
+                "text": "thats not a deterrent, if anything that makes me wish i saw this even more"
+            },
+            {
+                "author": "Kevin",
+                "text": "no thats ultra scary"
+            },
+            {
+                "author": "Brian",
+                "text": "wellsley im getting you a monster next time i see u over the summer"
+            }
         ]
     },
     {
@@ -1179,9 +1263,57 @@ const posts = [ //TODO: add alt text; add sources
         "body": "bro, burger king was so good why did they remove it? This must be because of BIG BURGER not wanting us to have those tasty beef patties. Or... maybe coyote jacks is owned by the clown and its all to make us love the rival chain instead...",
         "comments": [
             {
-                "author": "Remy",
-                "text": "hii"
+                "author": "Brian",
+                "text": "yknow haha… rpi just got a burger king nearby…"
             },
+            {
+                "author": "Opal",
+                "text": "YOU STOLE THE BURGER KING"
+            },
+            {
+                "author": "Opal",
+                "text": "WE WILL RIOT"
+            },
+            {
+                "author": "Wellsley",
+                "text": "BRIAN HOW COULD YOU DO THIS TO US"
+            },
+            {
+                "author": "Brian",
+                "text": "best thing to happen to this school since i got here"
+            },
+            {
+                "author": "Wellsley",
+                "text": "WORST thing to happen to this school >=( RPI has a burger king when we dont?? where will i get my fries now???"
+            },
+            {
+                "author": "Sebastian",
+                "text": "meeee i have french fries"
+            },
+            {
+                "author": "Sebastian",
+                "text": " i call up restaurant depots to buy their frozen french fries in bulk and then i deep fry em"
+            },
+            {
+                "author": "Sebastian",
+                "text": "my family n i will never get tired of em"
+            },
+            {
+                "author": "Wellsley",
+                "text": "please dont ship me french fries they will be cold and soggy by the time they hit worcester in the middle of c term"
+            },
+            {
+                "author": "Sebastian",
+                "text": "nonono i was thinking instead i would just make you some when youre in hawaii"
+            },
+            {
+                "author": "Wellsley",
+                "text": "omg yes i want the sebby special O.O"
+            },
+            {
+                "author": "Sebastian",
+                "text": "u bet wells :^) <-- this ones supposed to be me smiling bc it has a beak"
+            }
         ]
     },
     {
@@ -1191,9 +1323,45 @@ const posts = [ //TODO: add alt text; add sources
         "body": "Finally got a better camera!",
         "comments": [
             {
-                "author": "Remy",
-                "text": "hii"
+                "author": "Opal",
+                "text": "awesome selfie dude"
             },
+            {
+                "author": "Brian",
+                "text": "awesome selfie dude"
+            },
+            {
+                "author": "Kevin",
+                "text": "awesome selfie dude"
+            },
+            {
+                "author": "Wellsley",
+                "text": "i think he looks spectacular"
+            },
+            {
+                "author": "Opal",
+                "text": "dude."
+            },
+            {
+                "author": "Wellsley",
+                "text": "oops."
+            },
+            {
+                "author": "Xavier",
+                "text": "awesome selfie dude"
+            },
+            {
+                "author": "Sebastian",
+                "text": "i took this b4 my lunch break!"
+            },
+            {
+                "author": "Opal",
+                "text": "DUDE"
+            },
+            {
+                "author": "Sebastian",
+                "text": "SORRY, i just forgot to add it to the original post!!!"
+            }
         ]
     },
     {
@@ -1202,9 +1370,26 @@ const posts = [ //TODO: add alt text; add sources
         "body": "I CANT wait for the term to be over, summer break is right around the corner!",
         "comments": [
             {
-                "author": "Remy",
-                "text": "hii"
+                "author": "Kevin",
+                "text": "will you come back to town for the summer"
             },
+            {
+                "author": "Wellsley",
+                "text": "yeah let’s hang out!"
+            },
+            {
+                "author": "Kevin",
+                "text": "sweet im gonna throw a party at some point"
+            },
+            {
+                "author": "Brian",
+                "text": "we can have an ice cream reunion and put seb on a laptop so he can join us too ^_^"
+            },
+            {
+                "author": "Sebastian",
+                "text": "yeah!"
+            },
+
         ]
     },
     {
@@ -1214,9 +1399,25 @@ const posts = [ //TODO: add alt text; add sources
         "body": "Bye-bye Redhouse!!",
         "comments": [
             {
-                "author": "Remy",
-                "text": "hii"
+                "author": "Kevin",
+                "text": "bestie will be living on a banana next year"
             },
+            {
+                "author": "Wellsley",
+                "text": "eah, yk what, sure i will be living on a banana"
+            },
+            {
+                "author": "Sebastian",
+                "text": "well u will be living in a coconut"
+            },
+            {
+                "author": "Opal",
+                "text": "THAT WAS MY PLAN THX FOR REVEALING IT TO THE WORLD"
+            },
+            {
+                "author": "Wellsley",
+                "text": "is that what the coconuts are for??"
+            }
         ]
     }, {
         "date": "June 2007",
@@ -1224,9 +1425,49 @@ const posts = [ //TODO: add alt text; add sources
         "body": "This pawPhone thing looks super weird but kinda cool. It’s like an mp3 player and a phone and a camera all in one!!",
         "comments": [
             {
-                "author": "Remy",
-                "text": "hii"
+                "author": "Sebastian",
+                "text": "i dont know what it does but i want one for christmas"
             },
+            {
+                "author": "Opal",
+                "text": "ITS SO WEIRD WHY DOESNT IT HAVE A KEYBOARD??????"
+            },
+            {
+                "author": "Opal",
+                "text": "OR A CLICK WHEEL"
+            },
+            {
+                "author": "Opal",
+                "text": "HOW AM I SUPPOSED TO USE THIS THING"
+            },
+            {
+                "author": "Brian",
+                "text": "erm it’s touch capacitive…"
+            },
+            {
+                "author": "Opal",
+                "text": "SHUT UP BRIAN"
+            },
+            {
+                "author": "Opal",
+                "text": "IM A BIO MAJOR I DONT CARE ABOUT YOUR NERD TECH"
+            },
+            {
+                "author": "Brian",
+                "text": "I do not think we have been over this before, but since we have technically known each other for a while..."
+            },
+            {
+                "author": "Brian",
+                "text": "…you do realize you go to WPI, right?"
+            },
+            {
+                "author": "Brian",
+                "text": "WE’RE BOTH NERDS."
+            },
+            {
+                "author": "Opal",
+                "text": "nerd."
+            }
         ]
     },
     {
@@ -1236,9 +1477,73 @@ const posts = [ //TODO: add alt text; add sources
         "body": "This beach is so damn pretty. Happy fourth everyone!",
         "comments": [
             {
-                "author": "Remy",
-                "text": "hii"
+                "author": "Wellsley",
+                "text": "woahhhh prettyyyy"
             },
+            {
+                "author": "Kevin",
+                "text": ": i ate a rocket pop today and thought of u seb. ik theyre ur fav"
+            },
+            {
+                "author": "Sebastian",
+                "text": "they are… i only have them on special occasions bc that makes them even more special. i had one today and savored every single bite"
+            },
+            {
+                "author": "Wellsley",
+                "text": "wats your go-to ice cream truck choice then"
+            },
+            {
+                "author": "Sebastian",
+                "text": "italian ice"
+            },
+            {
+                "author": "Sebastian",
+                "text": "or an ice cream sandwich depending on my mood"
+            },
+            {
+                "author": "Sebastian",
+                "text": "the mattress kind not the cookie kind"
+            },
+            {
+                "author": "Wellsley",
+                "text": "the mattress ones will take a couple years off my life prob but it’s sooo worth it =)"
+            },
+            {
+                "author": "Opal",
+                "text": "ok but what about the strawberry shortcake bars those are so yummy"
+            },
+            {
+                "author": "Kevin",
+                "text": "or a choco taco! *drools*"
+            },
+            {
+                "author": "Remy",
+                "text": "neapolitan if it’s a fancy ice cream truck ^_^"
+            },
+            {
+                "author": "Sebastian",
+                "text": "honestly you cant go wrong with whatever you get from an ice cream truck, at the end of the day it’s all ice cream"
+            },
+            {
+                "author": "Brian",
+                "text": "im lactose intolerant… things can indeed go wrong…"
+            },
+            {
+                "author": "Brian",
+                "text": "hence why i love italian ice or a tasty popsicle"
+            },
+            {
+                "author": "Wellsley",
+                "text": "something for everyone at the ice cream truck!"
+            },
+            {
+                "author": "Wellsley",
+                "text": "i’ve always wanted to try one of those double popsicles. sebby would you share a double pop with me"
+            },
+            {
+                "author": "Sebastian",
+                "text": "yes please that would be so cute <3"
+            }
         ]
     },
     {
@@ -1247,9 +1552,49 @@ const posts = [ //TODO: add alt text; add sources
         "body": "I cant wait to go to Hawai’i!!!! It’s gonna be so warm and I get to see Sebbie for the first time in YEARS. I have two boring math courses and something called ID2050 - another boring and REQUIRED course for the IQP.",
         "comments": [
             {
-                "author": "Remy",
-                "text": "hii"
+                "author": "Sebastian",
+                "text": "wellssssss think abt it tho"
             },
+            {
+                "author": "Sebastian",
+                "text": "its like eating your vegetables before your dessert. you gotta do it but then the dessert tastes 100000x better bc you *worked* for it :^)"
+            },
+            {
+                "author": "Opal",
+                "text": "it's true"
+            },
+            {
+                "author": "Sebastian",
+                "text": "im gonna show you all the best secret spots that only locals know, we’ll eat a whole lotta french fries, and we’ll get to hang out ALL THE TIME AT THE BEACH"
+            },
+            {
+                "author": "Sebastian",
+                "text": "and ik you mentioned the other day that the apartment youre staying in is like 20 mins from my house according to mapquest which is super easy to do everyday"
+            },
+            {
+                "author": "Wellsley",
+                "text": "all of these are very good points, every linalg problem i do brings me one step closer to sebby"
+            },
+            {
+                "author": "Sebastian",
+                "text": "thats a good way of thinking abt it. remember this isnt your forever, youll get through it <3"
+            },
+            {
+                "author": "Wellsley",
+                "text": "yeah :9"
+            },
+            {
+                "author": "Wellsley",
+                "text": "thats supposed to be a dog smiley face btw just like your beak smiley"
+            },
+            {
+                "author": "Sebastian",
+                "text": ":^) 6: <-- thats supposed to be us in october"
+            },
+            {
+                "author": "Wellsley",
+                "text": "omg i love this"
+            }
         ]
     }, {
         "date": "September 2007",
@@ -1257,9 +1602,61 @@ const posts = [ //TODO: add alt text; add sources
         "body": "Eughhhhh ID2050 is SO MUCH WORK! It’ll all be worth it for hawaii though =D",
         "comments": [
             {
-                "author": "Remy",
-                "text": "hii"
+                "author": "Opal",
+                "text": "i miss youuuu and i hate ID2050 and i hate that i got stuck with fucking nantucket and i hate that we’re both taking ID2050 this term and our meetings are always at different times"
             },
+            {
+                "author": "Wellsley",
+                "text": "yeahhhh =( come to my place on friday, we can order a pizza from boomer’s and play games on my ps3"
+            },
+            {
+                "author": "Opal",
+                "text": "on your HDTV flatscreen?? hell yeah"
+            },
+            {
+                "author": "Brian",
+                "text": "omg do you have a KDF-37H1000????"
+            },
+            {
+                "author": "Wellsley",
+                "text": "i dont know what that is but its big and flat and says sony"
+            },
+            {
+                "author": "Brian",
+                "text": "It could be sony’s latest LCD flatscreen, with an impressive 1080p resolution. If it is, i envy you greatly"
+            },
+            {
+                "author": "Wellsley",
+                "text": "brian if we are two vectors in the same nerd space we are pointing in very different directions"
+            },
+            {
+                "author": "Brian",
+                "text": "but not *completely* different directions considering i also know what vectors are"
+            },
+            {
+                "author": "Kevin",
+                "text": "i dont know what a vector is but they sound cool and sciency"
+            },
+            {
+                "author": "Sebastian",
+                "text": "you and i both kevin. im just happy wells likes what hes studying"
+            },
+            {
+                "author": "Wellsley",
+                "text": "i stare at numbers all day to make particles go where theyre supposed to go"
+            },
+            {
+                "author": "Kevin",
+                "text": "i stare at $$$ numbers all day 2 make $$$ number grow faster"
+            },
+            {
+                "author": "Sebastian",
+                "text": "i save incompetent people from drowning"
+            },
+            {
+                "author": "Brian",
+                "text": "i think all of us will be great contributors to society"
+            }
         ]
     }, {
         "date": "October 2007",
@@ -1268,9 +1665,49 @@ const posts = [ //TODO: add alt text; add sources
         "body": "Gonna miss this nerd <3",
         "comments": [
             {
-                "author": "Remy",
-                "text": "hii"
+                "author": "Wellsley",
+                "text": "WAHHHH IM GONNA MISS YOU TOOOOOO BESTIE"
             },
+            {
+                "author": "Wellsley",
+                "text": "and then im not gonna see you until 2008?????? next YEAR?????? i wish u lived closer to my hometown so u can visit =("
+            },
+            {
+                "author": "Opal",
+                "text": "it’s a 15 hr drive from illinois but a train runs from chicago to boston sometimes. i’ll see what i can do to see you, idiot"
+            },
+            {
+                "author": "Wellsley",
+                "text": "send me a lobster from nantucket and ill send you a coconut"
+            },
+            {
+                "author": "Opal",
+                "text": "fair enough trade to me. deal"
+            },
+            {
+                "author": "Wellsley",
+                "text": "actually i don’t know if this is even legal"
+            },
+            {
+                "author": "Opal",
+                "text": "government doesn’t have to know"
+            },
+            {
+                "author": "Sebastian",
+                "text": "i’ll take good care of wells for you opal o7"
+            },
+            {
+                "author": "Opal",
+                "text": "thx seb, ik he will be in good hands with you"
+            },
+            {
+                "author": "Wellsley",
+                "text": "opal im gonna bring my laptop so we can still call and chat over skype like over breaks"
+            },
+            {
+                "author": "Opal",
+                "text": "we better !"
+            }
         ]
     }, {
         "date": "October 2007",
@@ -1279,9 +1716,41 @@ const posts = [ //TODO: add alt text; add sources
         "body": "IM SO EXCITED!!!!!!! The flight is LONG, but its going to be SO WORTH THE WAIT!!!",
         "comments": [
             {
-                "author": "Remy",
-                "text": "hii"
+                "author": "Sebastian",
+                "text": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
             },
+            {
+                "author": "Sebastian",
+                "text": "I CANT WAIT OMG OMG OMG"
+            },
+            {
+                "author": "Sebastian",
+                "text": "CAN I PLS PICK YOU UP FROM THE AIRPORT AND IF SO WHEN"
+            },
+            {
+                "author": "Wellsley",
+                "text": "flight boards soon so this is my only msg. yes, & u have my flight info. see u soon sebby <3 <3 <3"
+            },
+            {
+                "author": "Kevin",
+                "text": "HOPE U HAVE A KILLER TIME IN PARADISE!!!!!"
+            },
+            {
+                "author": "Brian",
+                "text": "hope you have a smooth flight!"
+            },
+            {
+                "author": "Remy",
+                "text": "safe travels :3"
+            },
+            {
+                "author": "Kevin",
+                "text": "omg hi remy :0"
+            },
+            {
+                "author": "Remy",
+                "text": "hiiiii"
+            }
         ]
     }, {
         "date": "October 2007",
@@ -1290,9 +1759,33 @@ const posts = [ //TODO: add alt text; add sources
         "body": "Cya soon!!!",
         "comments": [
             {
-                "author": "Remy",
-                "text": "hii"
+                "author": "Opal",
+                "text": "he finally learned how to take a real screenshot…"
             },
+            {
+                "author": "Opal",
+                "text": "you are now no longer the worlds worst screenshotter but you still took that awful screenshot so youre still the proud recipient of the worlds worst screenshot award"
+            },
+            {
+                "author": "Sebastian",
+                "text": "if you draw me an award i will print it and hang it on my bedroom wall after wells gets here"
+            },
+            {
+                "author": "Opal",
+                "text": "deal. whipping up a masterpiece in ms paint rn. youre gonna love it. i’ll send it on skype when im done"
+            },
+            {
+                "author": "Sebastian",
+                "text": "THIS IS THE BEST THING EVER THANK YOU"
+            },
+            {
+                "author": "Sebastian",
+                "text": "ok gtg wells is almost here :^)))))))"
+            },
+            {
+                "author": "Opal",
+                "text": "call him a nerd for me"
+            }
         ]
     }, {
         "date": "October 2007",
@@ -1300,8 +1793,64 @@ const posts = [ //TODO: add alt text; add sources
         "image": "./img/posts/57.jpg",
         "comments": [
             {
-                "author": "Remy",
-                "text": "hii"
+                "author": "Opal",
+                "text": "YAYYYYY"
+            },
+            {
+                "author": "Opal",
+                "text": "A HAPPY REUNION AT LAST"
+            },
+            {
+                "author": "Opal",
+                "text": "NOW SEND ME THAT COCONUT"
+            },
+            {
+                "author": "Brian",
+                "text": "WOOHOO!!!!! have a blast you two!"
+            },
+            {
+                "author": "Kevin",
+                "text": "im soooo jelly, that water looks like baja blast"
+            },
+            {
+                "author": "Kevin",
+                "text": "wait what if it IS baja blast and ur at a taco bell beach"
+            },
+            {
+                "author": "Kevin",
+                "text": "wellsley u need to invent that portal so i can go"
+            },
+            {
+                "author": "Wellsley",
+                "text": "kevin i can assure you that is not baja blast"
+            },
+            {
+                "author": "Kevin",
+                "text": "what a shame. perhaps i will become taco bell ceo so i can make a taco bell beach with a baja blast ocean"
+            },
+            {
+                "author": "Brian",
+                "text": "erm that does not sound sanitary"
+            },
+            {
+                "author": "Opal",
+                "text": "SHUT UP BRIAN cant you let a deer dream???"
+            },
+            {
+                "author": "Brian",
+                "text": "*sigh* fine…"
+            },
+            {
+                "author": "Brian",
+                "text": "but he’s business major and this is kevin we’re talking about, he would totally do this if he played his cards right"
+            },
+            {
+                "author": "Kevin",
+                "text": "yeah, and? i would throw an epic party at my taco bell beach with the baja blast ocean. everyone would get free taco bell bc im the ceo"
+            },
+            {
+                "author": "Brian",
+                "text": "i suppose i cant argue with that"
             },
         ]
     },
@@ -1312,9 +1861,41 @@ const posts = [ //TODO: add alt text; add sources
         "body": "Wells wants me to start posting more on here so i will :)",
         "comments": [
             {
-                "author": "Remy",
-                "text": "hii"
+                "author": "Wellsley",
+                "text": "YAYYYYY SEBBY’S GONNA POST MORE =D =D =D"
             },
+            {
+                "author": "Sebastian",
+                "text": "we ate three popsicles total before taking this picture. two rocket pops and a double pop. so maybe we actually ate four popsicles because the double pop split into two other popsicles"
+            },
+            {
+                "author": "Sebastian",
+                "text": "regardless, twas a special occasion"
+            },
+            {
+                "author": "Kevin",
+                "text": "deserved. looking forward 2 seeing more seb posts"
+            },
+            {
+                "author": "Brian",
+                "text": "agreed !!! seb you gotta come to the mainland U.S. at some point so the rest of us can see you in person again"
+            },
+            {
+                "author": "Kevin",
+                "text": "get the gang back together 4 another ice cream hangout"
+            },
+            {
+                "author": "Sebastian",
+                "text": "Genuinely im considering saving up to come back to the mainland U.S. in a few years. I didn’t realize just how much I needed wells in my day-to-day life until we reunited. My family dynamic has been changing and things may work in my favor"
+            },
+            {
+                "author": "Opal",
+                "text": "it would be sick to finally get to meet you in person instead of knowing you solely as a digital bird"
+            },
+            {
+                "author": "Sebastian",
+                "text": "we shall see! for now im focusing on savoring my time with wells. just like a rocket pop."
+            }
         ]
     }
     // template: 
