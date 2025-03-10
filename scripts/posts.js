@@ -1919,7 +1919,7 @@ const postsContainer = document.getElementById('postsContainer');
 let getIcon = function (name) {
     return `./img/icons/users/${name.toLowerCase()}.jpg`
 }
-//TODO: change all icons to be automatically added via the username.
+
 posts.forEach(post => {
     const postRow = document.createElement('tr');
     postRow.innerHTML = `
@@ -1953,8 +1953,6 @@ posts.forEach(post => {
                             `;
     postsContainer.appendChild(bodyRow);
 
-    // TODO: add divider between comments
-    // TODO: make defauly be showing posts, change arrows to show/hide
     if (post.comments.length) {
         const commentsRow = document.createElement('tr');
         commentsRow.innerHTML = `
